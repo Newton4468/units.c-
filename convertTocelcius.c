@@ -7,7 +7,8 @@ Description: c function convertTocelcius
 #include<stdio.h>
 //function convertTocelcius 
 float convertTocelcius (float temperature);
-int main(){
+
+void main(){
 float temperature;
 float celcius;
 
@@ -16,7 +17,7 @@ scanf("%f",&temperature);
 
 celcius =convertTocelcius (temperature);
 
-printf("The celcius is %. 2f °c",celcius );
+printf("The celcius is %.2f °c",celcius );
 
 }
  float convertTocelcius (float temperature){
