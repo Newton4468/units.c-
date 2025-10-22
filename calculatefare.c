@@ -9,7 +9,7 @@ Description: c function to calculatefare
 
 int calculatefare (int kilometers);
 
-int main(){
+void main(){
  int kilometers;
  int fare;
  printf("Enter distance in kilometers covered  ");
@@ -23,4 +23,4 @@ printf ("The total fare is %dksh",fare);
   int fare;
  fare = kilometers * 50;  
  return fare;
-
+}
