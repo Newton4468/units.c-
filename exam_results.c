@@ -1,3 +1,11 @@
+/*
+Name: kipsemian Newton
+Reg no: pa106/g/28743/25
+Description: c program displaying exam results  file for university students 
+*/
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
